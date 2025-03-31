@@ -15,13 +15,13 @@ function App() {
           type={page === "sold" ? "primary" : "default"}
           style={{ marginRight: 8 }}
         >
-          🛒 Sản phẩm đã bán
+          Sản phẩm đã bán
         </Button>
         <Button
           onClick={() => setPage("import")}
           type={page === "import" ? "primary" : "default"}
         >
-          📥 Nhập chứng từ
+          Nhập chứng từ
         </Button>
       </div>
 
